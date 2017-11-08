@@ -1,0 +1,175 @@
+body {
+  font-family: 'Source Sans Pro';
+}
+
+header .container {
+  height: 10%;
+  background: rgb(51, 51, 51);
+  flex-shrink: 0;
+}
+
+
+header {
+  display: flex;
+}
+
+div{
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: .6%;
+  width: 10%;
+}
+
+.list-divider-pipe {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3vh;
+}
+
+.list-divider-pipe li {
+  display: inline-block;
+
+  list-style-type: disc;
+  color: #ccc;
+  margin: 0 4px;
+}
+
+li > a {
+  color: #ccc;
+  text-decoration: none;
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  padding: 0 6px;
+}
+
+li > a:hover{
+  text-decoration: underline;
+}
+
+#main .container {
+  padding: 0 20px;
+  max-width: 735px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2em;
+
+}
+
+#home-intro a {
+  color: #43853d;
+  text-decoration: none;
+  font-family: 'Source Sans Pro';
+}
+
+.home-version-banner {
+  font-size: 150%;
+  background-color: #eaf5e9;
+  line-height: 200%;
+}
+
+.home-version-banner a {
+  color: #43853d;
+  text-decoration: none;
+}
+
+#download-header {
+  font-size: 150%;
+}
+
+.download-block {
+  display: inline-block;
+  margin: 0 8px;
+  text-align: center;
+}
+
+.home-downloadbutton {
+  display: block;
+  margin: 10px 4px;
+  padding: .2em .2em;
+  background-color: #026e00;
+  color: #fff !important;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.home-downloadbutton small {
+  display: block;
+  font-size: 1rem;
+}
+
+.download-block .list-divider-pipe a {
+  display: inline-block;
+  /*padding: 0 .9em 0 .95em;*/
+  font-size: 14px;
+  margin: 0 auto;
+  color: #51744e;
+}
+
+.last {
+  padding-right: 1.5vw;
+}
+
+#lts {
+  margin: 0;
+  font-size: 110%;
+}
+
+.lts-and-news a {
+  color: #43853d;
+  text-decoration: none;
+}
+
+footer {
+  background: rgb(51, 51, 51);
+}
+
+footer .container {
+  padding: .1% 0;
+
+}
+#footer-lead {
+  font-size: 125%;
+  margin: 0 auto;
+}
+
+.footer-info {
+  color: white;
+  font-size: 13px;
+  max-width: 935px;
+  margin: 0 auto;
+}
+
+.footer-info > h2 {
+  text-transform: capitalize;
+}
+
+.issue-container {
+  display: flex;
+  margin-top: 2%;
+}
+
+.linux-logo-container {
+  max-width: 410px;
+  min-width: 1px;
+}
+
+footer img {
+  max-width: 100%
+}
+
+.issue-link {
+  text-align: right;
+  min-width: 330px;
+  margin-left: auto;
+}
